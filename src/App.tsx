@@ -18,8 +18,8 @@ const App: React.FC = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(false);
   const [userEmail, setUserEmail] = useState('');
 
-  const handleLogin = (email: string, password: string) => {
-    setUserEmail(email);
+  const handleLogin = (_email: string, _password: string) => {
+    setUserEmail(_email);
     setIsLoggedIn(true);
   };
 
